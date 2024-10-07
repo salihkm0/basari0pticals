@@ -433,7 +433,7 @@ export const ProductDetails = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-4">
         {/* Main image and sub-images section */}
-        <div className="flex flex-col items-center shadow-xl object-cover p-3 max-h-[480px]">
+        <div className="flex flex-col items-center shadow-xl object-cover p-3 max-h-auto">
           {/* Main Image */}
           <img
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2SWEFq039QUATP0z_Dp5vqqj2tx9ej3fw_g&s"
