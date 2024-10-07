@@ -157,7 +157,7 @@ const responsive = {
 export default function ProductList({ title }) {
   return (
     <div className="bg-white">
-      <div className="mx-auto max-w-2xl py-16 sm:py-16 lg:max-w-7xl mt-[30px]">
+      <div className="mx-auto max-w-[90vw] py-16 sm:py-16 mt-[30px]">
         <h2 className="text-2xl font-bold tracking-tight text-gray-900">
           {title}
         </h2>
@@ -170,7 +170,7 @@ export default function ProductList({ title }) {
         //   itemClass="carousel-item-padding-40-px"
         >
           {products.map((product) => (
-            <div key={product.id} className="group relative mx-2 w-[300px] h-auto mt-[20px]">
+            <div key={product.id} className="group relative mx-2 w-[300px] h-auto mt-[20px] max-h-[500px]">
               <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
                 <img
                   alt={product.imageAlt}

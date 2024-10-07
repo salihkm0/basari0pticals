@@ -654,39 +654,12 @@ export const ProductDetails = () => {
         </div>
       </div>
 
-      {/* <div className="w-full ">
+      <div className="w-full ">
         <ProductList title={"Similar Products"}/>
-      </div> */}
-      {/* <div className="w-full ">
+      </div>
+      <div className="w-full ">
         <ProductList title={"Popular Products"}/>
-      </div> */}
-
-      {/* <div className = "w-full h-[40vh]">
-        <Swiper
-          // install Swiper modules
-          modules={[Navigation, Pagination, Scrollbar, A11y]}
-          spaceBetween={50}
-          slidesPerView={3}
-          navigation
-          pagination={{ clickable: true }}
-          scrollbar={{ draggable: true }}
-          onSwiper={(swiper) => console.log(swiper)}
-          onSlideChange={() => console.log("slide change")}
-        >
-          <SwiperSlide>
-          <div className="border w-1/4 h-[40vh]">product 1</div>
-          </SwiperSlide>
-          <SwiperSlide>
-          <div className="border w-1/4 h-[40vh]">product 1</div>
-          </SwiperSlide>
-          <SwiperSlide>
-          <div className="border w-1/4 h-[40vh]">product 1</div>
-          </SwiperSlide>
-          <SwiperSlide>
-          <div className="border w-1/4 h-[40vh]">product 1</div>
-          </SwiperSlide>
-        </Swiper>
-      </div> */}
+      </div>
 
       {/* Mobile fixed bottom Add to Cart */}
       <div className="fixed bottom-[65px] left-0 w-full sm:hidden bg-white border-t p-4 flex justify-between items-center gap-2 shadow-md">
