@@ -111,19 +111,19 @@ const Footer = () => {
             <h4 className="text-[18px] font-[500]">Download our app</h4>
           </div>
         </div>
-        <div className="flex justify-between items-start my-8">
+        <div className="flex justify-between items-start my-8 flex-wrap gap-4">
           <div>
             <p className="text-gray-500 text-[13px]">
               Copyright 2024 © Jinstore WooCommerce WordPress Theme. All right
               reserved. Powered by
               <a href="" className="text-blue-600">
-                {" "}
-                BlackRise Themes{" "}
+                
+                BlackRise Themes
               </a>
               .
             </p>
           </div>
-          <div className="flex items-center text-gray-700 gap-3 text-[13px] flex-wrap">
+          <div className="flex items-center text-gray-700 gap-3 text-[13px] flex-wrap ">
             <p>
               <a href="">Terms and Conditions</a>
             </p>

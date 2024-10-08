@@ -129,6 +129,36 @@ const products = [
     price: "09.99",
     color: "Black",
   },
+  {
+    id: 5,
+    name: "GUESS UV Protected ROUND Sun Glasses",
+    href: "#",
+    imageSrc:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp8hyY6uY2wLIYq9wPWXoovXXZMsC4mi2YvA&s",
+    imageAlt: "Front of men's Basic Tee in black.",
+    price: "09.99",
+    color: "Black",
+  },
+  {
+    id: 6,
+    name: "GUESS UV Protected ROUND Sun Glasses",
+    href: "#",
+    imageSrc:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp8hyY6uY2wLIYq9wPWXoovXXZMsC4mi2YvA&s",
+    imageAlt: "Front of men's Basic Tee in black.",
+    price: "09.99",
+    color: "Black",
+  },
+  {
+    id: 7,
+    name: "GUESS UV Protected ROUND Sun Glasses",
+    href: "#",
+    imageSrc:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp8hyY6uY2wLIYq9wPWXoovXXZMsC4mi2YvA&s",
+    imageAlt: "Front of men's Basic Tee in black.",
+    price: "09.99",
+    color: "Black",
+  },
 ];
 
 // const responsive = {
