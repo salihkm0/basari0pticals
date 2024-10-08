@@ -2,6 +2,7 @@ import React from "react";
 import { Navbar } from "../Navbar";
 import { ProductDetailsPage } from "../../Pages/ProductDetailsPage";
 import { Bottombar } from "../Bottombar";
+import Footer from "../../Components/Footer/Footer";
 
 export const UserLayout = () => {
   return (
@@ -13,6 +14,7 @@ export const UserLayout = () => {
           <ProductDetailsPage />
         </div>
         <Bottombar/>
+        <Footer/>
       </div>
     </>
   );
